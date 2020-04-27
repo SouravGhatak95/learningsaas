@@ -1,0 +1,25 @@
+.para{
+	position: relative;
+	margin-top: 50px;
+	height: 380px;
+	top: -884px;
+	left: 234px;
+
+
+ h3{
+	position: relative;
+	top: -15px;
+	left: 10px;
+}
+
+ p{
+	position: relative;
+	left:10px;
+	width: 750px;
+
+	&::selection{
+		background-color:#deeb6e;
+		color: #fff;
+	}
+}
+}

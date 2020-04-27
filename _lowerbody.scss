@@ -1,0 +1,13 @@
+.nav2{
+	@extend %h3;
+
+ul li{
+	position: relative;
+	list-style-type: disc;
+
+	&::selection{
+		background-color:#deeb6e;
+		color: #fff;
+	}
+}
+}

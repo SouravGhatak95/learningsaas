@@ -1,0 +1,23 @@
+.nav3 ul{
+	position: relative;
+	left: 1120px;
+	border-left: 1px solid black;
+	height: 425px;
+	background-color: $secondary-color;
+
+	li{
+		position: relative;
+		list-style-type: disc;
+	}
+
+  a{
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	
+
+	&:hover{
+		color: $tartiary-color;
+	}
+}
+}

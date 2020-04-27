@@ -1,0 +1,23 @@
+.nav {
+	background-color:#8742f5;
+	color: white;
+	height: 50px;
+	ul{
+		margin:0px;
+		padding: 0px;
+		list-style:none;
+	}
+	li{
+		display: inline-block;
+	}
+	 a{
+		display: block;
+		padding: 6px 12px;
+		text-decoration: none;
+
+		&:hover{
+			@include function();
+		}
+	
+	}
+ }

@@ -1,0 +1,11 @@
+.footer{
+	background-color:$main-color;
+	position: relative;
+	top: -860px;
+	height: 48px;
+
+	&:hover{
+		@include function();
+		color: black;
+	}
+}
